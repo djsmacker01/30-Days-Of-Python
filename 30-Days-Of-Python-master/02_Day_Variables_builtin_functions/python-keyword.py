@@ -30,4 +30,4 @@
 
 num_str = '10.6'
 print('num_float:', float(num_str))      # Convert to float first
-# print('num_int:', int(float(num_str)))
+print('num_int:', int(float(num_str)))
