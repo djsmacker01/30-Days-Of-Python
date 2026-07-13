@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 15 - Python Type Errors </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/nuruade/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/djsmacker01">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/djsmacker01?style=social">
   </a>
 
   <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+  <a href="https://www.linkedin.com/in/nuruade/" target="_blank">djsmacker01 Yetayeh</a><br>
   <small> Second Edition: July, 2021</small>
   </sub>
 </div>
@@ -44,7 +44,7 @@ Let us see the most common error types one by one. First let us open our Python 
 **Example 1: SyntaxError**
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -59,7 +59,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print('hello w
 As you can see we made a syntax error because we forgot to enclose the string with parenthesis and Python already suggests the solution. Let us fix it.
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -80,7 +80,7 @@ The error was a _SyntaxError_. After the fix our code was executed without a hit
 **Example 1: NameError**
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -94,7 +94,7 @@ NameError: name 'age' is not defined
 As you can see from the message above, name age is not defined. Yes, it is true that we did not define an age variable but we were trying to print it out as if we had had declared it. Now, lets fix this by declaring it and assigning with a value.
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -115,7 +115,7 @@ The type of error was a _NameError_. We debugged the error by defining the varia
 **Example 1: IndexError**
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -134,7 +134,7 @@ In the example above, Python raised an _IndexError_, because the list has only i
 **Example 1: ModuleNotFoundError**
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -148,7 +148,7 @@ ModuleNotFoundError: No module named 'maths'
 In the example above, I added an extra s to math deliberately and _ModuleNotFoundError_ was raised. Lets fix it by removing the extra s from math.
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -167,7 +167,7 @@ We fixed it, so let's use some of the functions from the math module.
 **Example 1: AttributeError**
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -186,7 +186,7 @@ AttributeError: module 'math' has no attribute 'PI'
 As you can see, I made a mistake again! Instead of pi, I tried to call a PI function from maths module. It raised an attribute error, it means, that the function does not exist in the module. Lets fix it by changing from PI to pi.
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -211,7 +211,7 @@ Now, when we call pi from the math module we got the result.
 **Example 1: KeyError**
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -228,7 +228,7 @@ KeyError: 'county'
 As you can see, there was a typo in the key used to get the dictionary value. so, this is a key error and the fix is quite straight forward. Let's do this!
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -251,7 +251,7 @@ We debugged the error, our code ran and we got the value.
 **Example 1: TypeError**
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -265,7 +265,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 In the example above, a TypeError is raised because we cannot add a number to a string. First solution would be to convert the string to int or float. Another solution would be converting the number to a string (the result then would be '43'). Let us follow the first fix.
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -287,7 +287,7 @@ Error removed and we got the result we expected.
 **Example 1: TypeError**
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -301,7 +301,7 @@ ImportError: cannot import name 'power' from 'math'
 There is no function called power in the math module, it goes with a different name: _pow_. Let's correct it:
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -318,7 +318,7 @@ ImportError: cannot import name 'power' from 'math'
 ### ValueError
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -334,7 +334,7 @@ In this case we cannot change the given string to a number, because of the 'a' l
 ### ZeroDivisionError
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.

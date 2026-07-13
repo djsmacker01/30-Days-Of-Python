@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 5 - Lists</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/nuruade/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/djsmacker01">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/djsmacker01?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a href="https://www.linkedin.com/in/nuruade/" target="_blank">djsmacker01 Yetayeh</a><br>
 <small> Second Edition: July - 2021</small>
 </sub>
 
@@ -123,7 +123,7 @@ Number of countries: 5
 - Lists can have items of different data types
 
 ```py
- lst = ['Asabeneh', 250, True, {'country':'Finland', 'city':'Helsinki'}] # list containing different data types
+ lst = ['djsmacker01', 250, True, {'country':'Finland', 'city':'Helsinki'}] # list containing different data types
 ```
 
 ### Accessing List Items Using Positive Indexing
@@ -579,7 +579,7 @@ ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 - Find the range of the ages (max minus min)
 - Compare the value of (min - average) and (max - average), use _abs()_ method
 
-1. Find the middle country(ies) in the [countries list](https://github.com/Asabeneh/30-Days-Of-Python/tree/master/data/countries.py)
+1. Find the middle country(ies) in the [countries list](https://github.com/djsmacker01/30-Days-Of-Python/tree/master/data/countries.py)
 1. Divide the countries list into two equal lists if it is even if not one more country for the first half.
 1. ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
 

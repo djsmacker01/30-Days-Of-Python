@@ -1,15 +1,15 @@
 ![30DaysOfPython](./images/30DaysOfPython_banner3@2x.png)
 
-🧳 [Part 1: Day 1 - 3](https://github.com/Asabeneh/30-Days-Of-Python)  
-🧳 [Part 2: Day 4 - 6](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme4-6.md)  
-🧳 [Part 3: Day 7 - 9](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme7-9.md)  
-🧳 [Part 4: Day 10 - 12](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme10-12.md)  
-🧳 [Part 5: Day 13 - 15](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme13-15.md)  
-🧳 [Part 6: Day 16 - 18](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme16-18.md)  
-🧳 [Part 7: Day 19 - 21](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme19-21.md)  
-🧳 [Part 8: Day 22 - 24](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme22-24.md)  
-🧳 [Part 9: Day 25 - 27](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme25-27.md)  
-🧳 [Part 10: Day 28 - 30](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme28-30.md) 
+🧳 [Part 1: Day 1 - 3](https://github.com/djsmacker01/30-Days-Of-Python)  
+🧳 [Part 2: Day 4 - 6](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme4-6.md)  
+🧳 [Part 3: Day 7 - 9](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme7-9.md)  
+🧳 [Part 4: Day 10 - 12](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme10-12.md)  
+🧳 [Part 5: Day 13 - 15](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme13-15.md)  
+🧳 [Part 6: Day 16 - 18](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme16-18.md)  
+🧳 [Part 7: Day 19 - 21](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme19-21.md)  
+🧳 [Part 8: Day 22 - 24](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme22-24.md)  
+🧳 [Part 9: Day 25 - 27](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme25-27.md)  
+🧳 [Part 10: Day 28 - 30](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme28-30.md) 
 
 ---
 - [📘 Day 10](#%f0%9f%93%98-day-10)
@@ -178,7 +178,7 @@ A *for* key word used to make a for loop like in other programming language but 
   **Example:**
 ```py
   person = {
-      'first_name':'Asabeneh',
+      'first_name':'djsmacker01',
       'last_name':'Yetayeh',
       'age':250,
       'country':'Finland',
@@ -284,7 +284,7 @@ We can write loop inside another loop.
   **Example:**
 ```py
   person = {
-      'first_name': 'Asabeneh',
+      'first_name': 'djsmacker01',
       'last_name': 'Yetayeh',
       'age': 250,
       'country': 'Finland',
@@ -393,7 +393,7 @@ Function can be declared without a parameter.
 **Example:**
 ```py
   def generate_full_name ():
-      first_name = 'Asabeneh'
+      first_name = 'djsmacker01'
       last_name = 'Yetayeh'
       space = ' '
       full_name = first_name + space + last_name
@@ -412,7 +412,7 @@ Function can also return values, if a function does not return values the value 
 
 ```py
 def generate_full_name ():
-    first_name = 'Asabeneh'
+    first_name = 'djsmacker01'
     last_name = 'Yetayeh'
     space = ' '
     full_name = first_name + space + last_name
@@ -444,7 +444,7 @@ def greetings (name):
     message = name + ', welcome to Python for Everyone!'
     return message
 
-print(greetings('Asabeneh'))
+print(greetings('djsmacker01'))
 
 def add_ten(num):
     ten = 10
@@ -485,7 +485,7 @@ sum_of_numbers(100) # 5050
       space = ' '
       full_name = first_name + space + last_name
       return full_name
-  print('Full Name: ', generate_full_name('Asabeneh','Yetayeh'))
+  print('Full Name: ', generate_full_name('djsmacker01','Yetayeh'))
 
   def sum_two_numbers (num_one, num_two):
       sum = num_one + num_two
@@ -520,7 +520,7 @@ If we pass the arguments with key and value, the order of the arguments does not
         space = ' '
         full_name = firstname  + space + lastname
         print(full_name)
-  print_fullname(firstname='Asabeneh', lastname='Yetayeh')
+  print_fullname(firstname='djsmacker01', lastname='Yetayeh')
 
   def add_two_numbers (num1, num2):
     total = num1 + num2
@@ -534,13 +534,13 @@ If we do not return a value from a function, then our function is returning *Non
 ```py
   def print_name(firstname):
         return firstname
-  print_name('Asabeneh') # Asabeneh
+  print_name('djsmacker01') # djsmacker01
 
   def print_full_name(firstname, lastname):
         space = ' '
         full_name = firstname  + space + lastname
         return full_name
-  print_full_name(firstname='Asabeneh', lastname='Yetayeh')
+  print_full_name(firstname='djsmacker01', lastname='Yetayeh')
 ```
 * Returning Number:
 
@@ -596,9 +596,9 @@ Sometimes we pass default values to parameters, when we invoke the function if w
     message = name + ', welcome to Python for Everyone!'
     return message
   print(greetings())
-  print(greetings('Asabeneh'))
+  print(greetings('djsmacker01'))
 
-  def generate_full_name (first_name = 'Asabeneh', last_name = 'Yetayeh'):
+  def generate_full_name (first_name = 'djsmacker01', last_name = 'Yetayeh'):
       space = ' '
       full_name = first_name + space + last_name
       return full_name
@@ -643,7 +643,7 @@ def generate_groups (team,*args):
     print(team)
     for i in args:
         print(i)
-generate_groups('Team-1','Asabeneh','Brook','David','Eyob')
+generate_groups('Team-1','djsmacker01','Brook','David','Eyob')
 ```
 ### Function as parameter of other function
 ```py
@@ -734,7 +734,7 @@ To import the file we use the *import* keyword and the name of the file only.
 ```py
 # main.py file
 import mymodule
-print(mymodule.generate_full_name('Asabeneh', 'Yetayeh'))
+print(mymodule.generate_full_name('djsmacker01', 'Yetayeh'))
 ```
 ### Import functions from a module
 We can have many functions in a file and we can import all the functions differently.
@@ -784,7 +784,7 @@ import sys
 print(sys.argv[0], argv[1],sys.argv[2])
 print('Welcome {}. Enjoy  {} challenge!'.format(sys.argv[1], sys.argv[2]))
 output
-Welcome Asabeneh. Enjoy  30DayOfPython challenge!
+Welcome djsmacker01. Enjoy  30DayOfPython challenge!
 
 # to exist syst
 sys.exit()
@@ -897,5 +897,5 @@ Write a function generate_colors which can generate any number of hexa or rgb co
 1. Call your function shuffle_list, it takes a list as a parameter and it returns a shuffled list
 1. Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
 
-[<< Part 3 ](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme7-9.md) | [Part 5 >>](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme13-15.md)
+[<< Part 3 ](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme7-9.md) | [Part 5 >>](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme13-15.md)
 ***

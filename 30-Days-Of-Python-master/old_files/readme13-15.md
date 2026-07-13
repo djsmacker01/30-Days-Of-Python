@@ -1,15 +1,15 @@
 ![30DaysOfPython](./images/30DaysOfPython_banner3@2x.png)
 
-🧳 [Part 1: Day 1 - 3](https://github.com/Asabeneh/30-Days-Of-Python)  
-🧳 [Part 2: Day 4 - 6](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme4-6.md)  
-🧳 [Part 3: Day 7 - 9](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme7-9.md)  
-🧳 [Part 4: Day 10 - 12](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme10-12.md)  
-🧳 [Part 5: Day 13 - 15](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme13-15.md)  
-🧳 [Part 6: Day 16 - 18](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme16-18.md)  
-🧳 [Part 7: Day 19 - 21](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme19-21.md)  
-🧳 [Part 8: Day 22 - 24](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme22-24.md)  
-🧳 [Part 9: Day 25 - 27](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme25-27.md)  
-🧳 [Part 10: Day 28 - 30](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme28-30.md)  
+🧳 [Part 1: Day 1 - 3](https://github.com/djsmacker01/30-Days-Of-Python)  
+🧳 [Part 2: Day 4 - 6](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme4-6.md)  
+🧳 [Part 3: Day 7 - 9](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme7-9.md)  
+🧳 [Part 4: Day 10 - 12](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme10-12.md)  
+🧳 [Part 5: Day 13 - 15](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme13-15.md)  
+🧳 [Part 6: Day 16 - 18](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme16-18.md)  
+🧳 [Part 7: Day 19 - 21](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme19-21.md)  
+🧳 [Part 8: Day 22 - 24](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme22-24.md)  
+🧳 [Part 9: Day 25 - 27](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme25-27.md)  
+🧳 [Part 10: Day 28 - 30](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme28-30.md)  
 
 ---
 
@@ -213,9 +213,9 @@ two_power_of_five = power(2)(5) # 32
    ```
 1. Change the following list of lists to flat list:
    ```py
-   names = [[('Asabeneh', 'Yetaeyeh')], [('David', 'Smith')], [('Donald', 'Trump')], [('Bill', 'Gates')]]
+   names = [[('djsmacker01', 'Yetaeyeh')], [('David', 'Smith')], [('Donald', 'Trump')], [('Bill', 'Gates')]]
    output
-   ['Asabeneh Yetaeyeh', 'David Smith', 'Donald Trump', 'Bill Gates']
+   ['djsmacker01 Yetaeyeh', 'David Smith', 'Donald Trump', 'Bill Gates']
    ```
 1. Write a lambda function which can solve slope or y-intercept.
 
@@ -390,7 +390,7 @@ def print_full_name(first_name, last_name, country):
     print("I am {} {}. I love teaching".format(
         first_name, last_name, country))
 
-print_full_name("Asabeneh", "Yetayeh",'Finland')
+print_full_name("djsmacker01", "Yetayeh",'Finland')
 ```
 
 ## Built-in Higher Order Functions
@@ -431,17 +431,17 @@ print(list(numbers_int))    # [1, 2, 3, 4, 5]
 **Example:3**
 
 ```py
-names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']  # iterable
+names = ['djsmacker01', 'Lidiya', 'Ermias', 'Abraham']  # iterable
 
 def change_to_upper(name):
     return name.upper()
 
 names_upper_cased = map(change_to_upper, names)
-print(list(names_upper_cased))    # ['ASABENEH', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
+print(list(names_upper_cased))    # ['djsmacker01', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
 
 # Lets apply it with a lambda function
 names_upper_cased = map(lambda name: name.upper(), names)
-print(list(names_upper_cased))    # ['ASABENEH', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
+print(list(names_upper_cased))    # ['djsmacker01', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
 ```
 
 What actually map do is mapping a list. For instance it changes the names to upper case and return a new list.
@@ -486,14 +486,14 @@ print(list(odd_numbers))       # [1, 3, 5]
 
 ```py
 # Filter long name
-names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']  # iterable
+names = ['djsmacker01', 'Lidiya', 'Ermias', 'Abraham']  # iterable
 def is_name_long(name):
     if len(name) > 7:
         return True
     return False
 
 long_names = filter(is_name_long, names)
-print(list(long_names))         # ['Asabeneh']
+print(list(long_names))         # ['djsmacker01']
 ```
 
 ### Python - Reduce Function
@@ -515,7 +515,7 @@ print(total)    # 15
 
 ```py
 countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
-names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']
+names = ['djsmacker01', 'Lidiya', 'Ermias', 'Abraham']
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
@@ -536,11 +536,11 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 1. Declare a function called get_string_lists which takes an list as a parameter and then returns an list only with string items.
 1. Use reduce to sum all the numbers in the numbers list.
 1. Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and IceLand are north European countries
-1. Declare a function called categorize_countries which returns an list of countries which have some common pattern(you find the [countries list](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries.py) in this repository as countries.js(eg 'land', 'ia', 'island', 'stan')).
+1. Declare a function called categorize_countries which returns an list of countries which have some common pattern(you find the [countries list](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/countries.py) in this repository as countries.js(eg 'land', 'ia', 'island', 'stan')).
 1. Create a function which return a list of dictionary, which is the letter and the number of times the letter used to start a name of a country.
 1. Declare a get_first_ten_countries function and return an list of ten countries from the countries.js list in the data folder.
 1. Declare a get_last_ten_countries function which which returns the last ten countries in the countries list.
-1. Find out which letter is used many times as initial for a country name from the [countries list](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries-data.py)(eg. Finland, Fiji, France etc)
+1. Find out which letter is used many times as initial for a country name from the [countries list](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/countries-data.py)(eg. Finland, Fiji, France etc)
 1. Use the countries_data.py file information, in the data folder.
    - Sort countries by name, by capital, by population
    - Sort out the ten most spoken languages by location.
@@ -559,7 +559,7 @@ Let's see the most common error types step by step by open our python interactiv
 **Example 1: SyntaxError**
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -575,7 +575,7 @@ As you can see we made a syntax error because we forgot to enclose the string wi
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -597,7 +597,7 @@ The error was a _SyntaxError_ and we fixed and our code executed. Let see more e
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -612,7 +612,7 @@ As you can see from the above error, it says that name age is not defined. Yes, 
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -634,7 +634,7 @@ The type of error was a _NameError_. We debugged the error by defining the varia
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -654,7 +654,7 @@ In the above example, python raised an _IndexError_ because the list has only 0 
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -669,7 +669,7 @@ In the above example, I added extra s to math deliberately and _ModuleNotFoundEr
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -689,7 +689,7 @@ We fixed the error by removing the extra s. Now let's use some of the function f
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -709,7 +709,7 @@ As you can see, now again I made a mistake instead of pi, I tried to call a PI f
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -735,7 +735,7 @@ Now, when we call pi from the math module we got the result.
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -753,7 +753,7 @@ As you can see, there was a typo in the key used to get the dictionary value. so
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -777,7 +777,7 @@ We debug our error and our code ran and we got the value.
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -792,7 +792,7 @@ In the above example, a TypeError is raised because we can not add number and st
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -815,7 +815,7 @@ The remove the error and our and we got the result we expected.
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -830,7 +830,7 @@ There is no function called power in the math module instead we have _pow_. Lets
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -848,7 +848,7 @@ ImportError: cannot import name 'power' from 'math'
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -865,7 +865,7 @@ We can not change string to a number.
 
 ```py
 Last login: Tue Dec  3 15:20:41 on ttys002
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -885,6 +885,6 @@ If you are good at reading the error types then you will be able to fix your bug
 
 1. Open you python interactive shell and try all the examples covered in this section.
 
-[<< Part 4 ](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme10-12.md) | [Part 6 >>](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme16-18.md)
+[<< Part 4 ](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme10-12.md) | [Part 6 >>](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme16-18.md)
 
 ---

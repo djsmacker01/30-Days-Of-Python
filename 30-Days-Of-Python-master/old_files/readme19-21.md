@@ -1,15 +1,15 @@
 ![30DaysOfPython](./images/30DaysOfPython_banner3@2x.png)
 
-🧳 [Part 1: Day 1 - 3](https://github.com/Asabeneh/30-Days-Of-Python)  
-🧳 [Part 2: Day 4 - 6](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme4-6.md)  
-🧳 [Part 3: Day 7 - 9](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme7-9.md)  
-🧳 [Part 4: Day 10 - 12](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme10-12.md)  
-🧳 [Part 5: Day 13 - 15](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme13-15.md)  
-🧳 [Part 6: Day 16 - 18](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme16-18.md)  
-🧳 [Part 7: Day 19 - 21](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme19-21.md)  
-🧳 [Part 8: Day 22 - 24](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme22-24.md)  
-🧳 [Part 9: Day 25 - 27](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme25-27.md)  
-🧳 [Part 10: Day 28 - 30](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme28-30.md)  
+🧳 [Part 1: Day 1 - 3](https://github.com/djsmacker01/30-Days-Of-Python)  
+🧳 [Part 2: Day 4 - 6](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme4-6.md)  
+🧳 [Part 3: Day 7 - 9](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme7-9.md)  
+🧳 [Part 4: Day 10 - 12](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme10-12.md)  
+🧳 [Part 5: Day 13 - 15](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme13-15.md)  
+🧳 [Part 6: Day 16 - 18](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme16-18.md)  
+🧳 [Part 7: Day 19 - 21](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme19-21.md)  
+🧳 [Part 8: Day 22 - 24](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme22-24.md)  
+🧳 [Part 9: Day 25 - 27](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme25-27.md)  
+🧳 [Part 10: Day 28 - 30](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme28-30.md)  
 
 ---
 
@@ -235,17 +235,17 @@ _Example:_
 ```py
 # dictionary
 person_dct= {
-    "name":"Asabeneh",
+    "name":"djsmacker01",
     "country":"Finland",
     "city":"Helsinki",
     "skills":["JavaScrip", "React","Python"]
 }
 # JSON: A string form a dictionary
-person_json = "{'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'skills': ['JavaScrip', 'React', 'Python']}"
+person_json = "{'name': 'djsmacker01', 'country': 'Finland', 'city': 'Helsinki', 'skills': ['JavaScrip', 'React', 'Python']}"
 
 # we use three quotes and make it multiple line to make it more readable
 person_json = '''{
-    "name":"Asabeneh",
+    "name":"djsmacker01",
     "country":"Finland",
     "city":"Helsinki",
     "skills":["JavaScrip", "React","Python"]
@@ -260,7 +260,7 @@ To change a JSON to a dictionary we use _loads_ method.
 import json
 # JSON
 person_json = '''{
-    "name": "Asabeneh",
+    "name": "djsmacker01",
     "country": "Finland",
     "city": "Helsinki",
     "skills": ["JavaScrip", "React", "Python"]
@@ -273,8 +273,8 @@ print(person_dct['name'])
 
 ```sh
 # output
-{'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'skills': ['JavaScrip', 'React', 'Python']}
-Asabeneh
+{'name': 'djsmacker01', 'country': 'Finland', 'city': 'Helsinki', 'skills': ['JavaScrip', 'React', 'Python']}
+djsmacker01
 ```
 
 ### Changing dictionary to JSON
@@ -285,7 +285,7 @@ To change a dictionary to a JSON we use _dumps_ method.
 import json
 # python dictionary
 person = {
-    "name": "Asabeneh",
+    "name": "djsmacker01",
     "country": "Finland",
     "city": "Helsinki",
     "skills": ["JavaScrip", "React", "Python"]
@@ -302,7 +302,7 @@ print(person_json)
 # JSON does not have type, it is a string type.
 <class 'str'>
 {
-    "name": "Asabeneh",
+    "name": "djsmacker01",
     "country": "Finland",
     "city": "Helsinki",
     "skills": [
@@ -321,7 +321,7 @@ We can also save our data as a json file. Let's save it as a json file using the
 import json
 # python dictionary
 person = {
-    "name": "Asabeneh",
+    "name": "djsmacker01",
     "country": "Finland",
     "city": "Helsinki",
     "skills": ["JavaScrip", "React", "Python"]
@@ -340,7 +340,7 @@ CSV stands for comma separated values. CSV is a simple file format used to store
 
 ```csv
 "name","country","city","skills"
-"Asabeneh","Finland","Helsinki","JavaScrip"
+"djsmacker01","Finland","Helsinki","JavaScrip"
 ```
 
 **Example:**
@@ -364,7 +364,7 @@ with open('./files/csv_example.csv') as f:
 ```sh
 # output:
 Column names are :name, country, city, skills
-        Asabeneh is a teachers. He lives in Finland, Helsinki.
+        djsmacker01 is a teachers. He lives in Finland, Helsinki.
 Number of lines:  2
 ```
 
@@ -380,7 +380,7 @@ XML is another structured data format which looks like HTML. In XML the tags are
 ```xml
 <?xml version="1.0"?>
 <person gender="female">
-  <name>Asabeneh</name>
+  <name>djsmacker01</name>
   <country>Finland</country>
   <city>Helsinki</city>
   <skills>
@@ -498,13 +498,13 @@ field: skills
 ```
 
 6. Use the function, find_most_frequent_words to find out:
-   1. The ten most frequent words used in [Obama's speech](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/obama_speech.txt)
-   2. The ten most frequent words used in [Michelle's speech](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/michelle_obama_speech.txt)
-   3. The ten most frequent words used in [Trump's speech](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/donald_speech.txt)
-   4. The ten most frequent words used in [Melina's speech](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/melina_trump_speech.txt)
-7. Write a python application which checks similarity between two texts. It takes a file or a string as a parameter and it will evaluate the similarity of the two texts. For instance check the similarity between the transcripts of [Michelle's](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/michelle_obama_speech.txt) and [Melina's](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/melina_trump_speech.txt) speech. You may need a couple of functions, function to clean the text(clean_text), function to remove support words(remove_support_words) and finally to check the similarity(check_text_similarity). List of [stop words](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/stop_words.py) are in the data directory
+   1. The ten most frequent words used in [Obama's speech](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/obama_speech.txt)
+   2. The ten most frequent words used in [Michelle's speech](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/michelle_obama_speech.txt)
+   3. The ten most frequent words used in [Trump's speech](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/donald_speech.txt)
+   4. The ten most frequent words used in [Melina's speech](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/melina_trump_speech.txt)
+7. Write a python application which checks similarity between two texts. It takes a file or a string as a parameter and it will evaluate the similarity of the two texts. For instance check the similarity between the transcripts of [Michelle's](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/michelle_obama_speech.txt) and [Melina's](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/melina_trump_speech.txt) speech. You may need a couple of functions, function to clean the text(clean_text), function to remove support words(remove_support_words) and finally to check the similarity(check_text_similarity). List of [stop words](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/stop_words.py) are in the data directory
 8. Find the 10 most repeated words in the romeo_and_juliet.txt
-9. Read the [hacker news csv](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/hacker_news.csv) file and find out:
+9. Read the [hacker news csv](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/hacker_news.csv) file and find out:
    1. Count the number of lines containing python or Python
    2. Count the number lines containing JavaScript, javascript or Javascript
    3. Count the number lines containing Java not JavaScript
@@ -524,7 +524,7 @@ In programming, we do not have to write every utility programs instead we instal
 If you did not install pip, lets install pip. Go to your terminal or command prompt and copy and past this:
 
 ```sh
-asabeneh@Asabeneh:~$ pip install pip
+djsmacker01@djsmacker01:~$ pip install pip
 ```
 
 Check if it is installed by writing
@@ -534,7 +534,7 @@ pip --version
 ```
 
 ```py
-asabeneh@Asabeneh:~$ pip --version
+djsmacker01@djsmacker01:~$ pip --version
 pip 19.3.1 from /usr/local/lib/python3.7/site-packages/pip (python 3.7)
 ```
 
@@ -555,13 +555,13 @@ Let's try to install _numpy_, which is called a numeric python. It is one of the
   - useful linear algebra, Fourier transform, and random number capabilities
 
 ```sh
-asabeneh@Asabeneh:~$ pip install numpy
+djsmacker01@djsmacker01:~$ pip install numpy
 ```
 
 Lets start using numpy. Open your python interactive shell, write python and then import numpy as follows:
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -584,11 +584,11 @@ array([3, 4, 5, 6, 7])
 Pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language. Lets install big brother of numpy _pandas_ as we did for _numpy_.
 
 ```sh
-asabeneh@Asabeneh:~$ pip install pandas
+djsmacker01@djsmacker01:~$ pip install pandas
 ```
 
 ```py
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -604,9 +604,9 @@ import webbrowser # web browser module to open websites
 # list of urls: python
 url_lists = [
     'http://www.python.org',
-    'https://www.linkedin.com/in/asabeneh/',
-    'https://twitter.com/Asabeneh',
-    'https://twitter.com/Asabeneh',
+    'https://www.linkedin.com/in/nuruade/',
+    'https://twitter.com/djsmacker01',
+    'https://twitter.com/djsmacker01',
 ]
 
 # opens the above list of websites in a different tab
@@ -639,7 +639,7 @@ pip show packagename
 ```
 
 ```sh
-asabeneh@Asabeneh:~$ pip show pandas
+djsmacker01@djsmacker01:~$ pip show pandas
 Name: pandas
 Version: 0.25.3
 Summary: Powerful data structures for data analysis, time series, and statistics
@@ -655,7 +655,7 @@ Required-by:
 If we want even more detail than the above, just add --verbose
 
 ```sh
-asabeneh@Asabeneh:~$ pip show --verbose pandas
+djsmacker01@djsmacker01:~$ pip show --verbose pandas
 Name: pandas
 Version: 0.25.3
 Summary: Powerful data structures for data analysis, time series, and statistics
@@ -691,7 +691,7 @@ Entry-points:
 Generate output suitable for a requirements file.
 
 ```sh
-asabeneh@Asabeneh:~$ pip freeze
+djsmacker01@djsmacker01:~$ pip freeze
 docutils==0.11
 Jinja2==2.7.2
 MarkupSafe==0.19
@@ -709,7 +709,7 @@ API stands for Application Program Interface. It is a means to exchange structur
 Let's install _requests_
 
 ```py
-asabeneh@Asabeneh:~$ pip install requests
+djsmacker01@djsmacker01:~$ pip install requests
 ```
 
 We will see _get_, _status_code_, _headers_, _text_ and _json_ methods from _requests_ module
@@ -855,7 +855,7 @@ The folder structure of your package should look like this:
 ```
 Now let's open the python interactive shell and try the package we have created:
 ```sh
-asabeneh@Asabeneh:~/Desktop/30DaysOfPython$ python
+djsmacker01@djsmacker01:~/Desktop/30DaysOfPython$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32) 
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -873,8 +873,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> arithmetics.power(5, 3)
 125
 >>> from mypackage import greet
->>> greet.greet_person('Asabeneh', 'Yetayeh')
-'Asabeneh Yetayeh, welcome to 30DaysOfPython Challenge!'
+>>> greet.greet_person('djsmacker01', 'Yetayeh')
+'djsmacker01 Yetayeh, welcome to 30DaysOfPython Challenge!'
 >>> 
 ```
 As you can see our package works perfect. The package folder contains a special file called __init__.py which stores the package's content. If we put  __init__.py in the package folder, python start recognizes it as a package.
@@ -930,9 +930,9 @@ Let's check if everything in python is class:
 
 ```py
 Last login: Tue Dec 10 09:35:28 on console
-asabeneh@Asabeneh:~$ pyhton
+djsmacker01@djsmacker01:~$ pyhton
 -bash: pyhton: command not found
-asabeneh@Asabeneh:~$ python
+djsmacker01@djsmacker01:~$ python
 Python 3.7.5 (default, Nov  1 2019, 02:16:32)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -999,14 +999,14 @@ class Person:
       def __init__ (self, name):
           self.name =name
 
-p = Person('Asabeneh')
+p = Person('djsmacker01')
 print(p.name)
 print(p)
 ```
 
 ```sh
 # output
-Asabeneh
+djsmacker01
 ```
 
 Let's add more parameter to the constructor function.
@@ -1021,7 +1021,7 @@ class Person:
           self.city = city
 
 
-p = Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
+p = Person('djsmacker01', 'Yetayeh', 250, 'Finland', 'Helsinki')
 print(p.firstname)
 print(p.lastname)
 print(p.age)
@@ -1031,7 +1031,7 @@ print(p.city)
 
 ```sh
 # output
-Asabeneh
+djsmacker01
 Yetayeh
 250
 Finland
@@ -1056,13 +1056,13 @@ class Person:
         return f'{self.firstname} {self.lastname} is {self.age} year old. He lives in {self.city}, {self.country}'
 
 
-p = Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
+p = Person('djsmacker01', 'Yetayeh', 250, 'Finland', 'Helsinki')
 print(p.person_info())
 ```
 
 ```sh
 # output
-Asabeneh Yetayeh is 250 year old. He lives in Helsinki, Finland
+djsmacker01 Yetayeh is 250 year old. He lives in Helsinki, Finland
 ```
 
 ### Object default methods
@@ -1073,7 +1073,7 @@ Sometimes, you may want to have a default values for you object methods. If we g
 
 ```py
 class Person:
-      def __init__(self, firstname='Asabeneh', lastname='Yetayeh', age=250, country='Finland', city='Helsinki'):
+      def __init__(self, firstname='djsmacker01', lastname='Yetayeh', age=250, country='Finland', city='Helsinki'):
           self.firstname = firstname
           self.lastname = lastname
           self.age = age
@@ -1091,7 +1091,7 @@ print(p2.person_info())
 
 ```sh
 # output
-Asabeneh Yetayeh is 250 year old. He lives in Helsinki, Finland.
+djsmacker01 Yetayeh is 250 year old. He lives in Helsinki, Finland.
 John Doe is 30 year old. He lives in Noman city, Nomanland.
 ```
 
@@ -1101,7 +1101,7 @@ In the example below, the person class, all the constructor parameters have defa
 
 ```py
 class Person:
-      def __init__(self, firstname='Asabeneh', lastname='Yetayeh', age=250, country='Finland', city='Helsinki'):
+      def __init__(self, firstname='djsmacker01', lastname='Yetayeh', age=250, country='Finland', city='Helsinki'):
           self.firstname = firstname
           self.lastname = lastname
           self.age = age
@@ -1127,7 +1127,7 @@ print(p2.skills)
 
 ```sh
 # output
-Asabeneh Yetayeh is 250 year old. He lives in Helsinki, Finland.
+djsmacker01 Yetayeh is 250 year old. He lives in Helsinki, Finland.
 John Doe is 30 year old. He lives in Noman city, Nomanland.
 ['HTML', 'CSS', 'JavaScript']
 []
@@ -1174,7 +1174,7 @@ We can write add a new method to the child or we can overwrite the parent class 
 
 ```py
 class Student(Person):
-    def __init__ (self, firstname='Asabeneh', lastname='Yetayeh',age=250, country='Finland', city='Helsinki', gender='male'):
+    def __init__ (self, firstname='djsmacker01', lastname='Yetayeh',age=250, country='Finland', city='Helsinki', gender='male'):
         self.gender = gender
         super().__init__(firstname, lastname,age, country, city)
     def person_info(self):
@@ -1243,6 +1243,6 @@ Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34
 ```
 1. Create a class called PersonAccount. It has firstname, lastname, incomes, expenses properties and it has total_income, total_expense, account_info,add_income, add_expense and account_balance methods. Incomes is a set of incomes and its description and the same goes for expenses.
    
-[<< Part 6 ](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme16-18.md) | [Part 8 >>](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme22-24.md)
+[<< Part 6 ](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme16-18.md) | [Part 8 >>](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme22-24.md)
 
 ---

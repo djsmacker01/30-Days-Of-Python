@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 29 - Building an API </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/nuruade/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/djsmacker01">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/djsmacker01?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a href="https://www.linkedin.com/in/nuruade/" target="_blank">djsmacker01 Yetayeh</a><br>
 <small>Second Edition: July, 2021</small>
 </sub>
 
@@ -92,7 +92,7 @@ app = Flask(__name__)
 def students ():
     student_list = [
         {
-            'name':'Asabeneh',
+            'name':'djsmacker01',
             'country':'Finland',
             'city':'Helsinki',
             'skills':['HTML', 'CSS','JavaScript','Python']
@@ -141,7 +141,7 @@ import pymongo
 app = Flask(__name__)
 
 #
-MONGODB_URI='mongodb+srv://asabeneh:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI='mongodb+srv://djsmacker01:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 
@@ -166,7 +166,7 @@ By connecting the flask, we can fetch students collection data from the thirty_d
         "_id": {
             "$oid": "5df68a21f106fe2d315bbc8b"
         },
-        "name": "Asabeneh",
+        "name": "djsmacker01",
         "country": "Finland",
         "city": "Helsinki",
         "age": 38
@@ -194,7 +194,7 @@ By connecting the flask, we can fetch students collection data from the thirty_d
 
 ### Getting a document by id
 
-We can access signle document using an id, let's access Asabeneh using his id.
+We can access signle document using an id, let's access djsmacker01 using his id.
 http://localhost:5000/api/v1.0/students/5df68a21f106fe2d315bbc8b
 
 ```py
@@ -211,7 +211,7 @@ import pymongo
 app = Flask(__name__)
 
 #
-MONGODB_URI='mongodb+srv://asabeneh:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI='mongodb+srv://djsmacker01:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 
@@ -237,7 +237,7 @@ if __name__ == '__main__':
         "_id": {
             "$oid": "5df68a21f106fe2d315bbc8b"
         },
-        "name": "Asabeneh",
+        "name": "djsmacker01",
         "country": "Finland",
         "city": "Helsinki",
         "age": 38
@@ -264,7 +264,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 #
-MONGODB_URI='mongodb+srv://asabeneh:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI='mongodb+srv://djsmacker01:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 
@@ -322,7 +322,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 #
-MONGODB_URI='mongodb+srv://asabeneh:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI='mongodb+srv://djsmacker01:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 
@@ -403,7 +403,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 #
-MONGODB_URI='mongodb+srv://asabeneh:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI='mongodb+srv://djsmacker01:your_password@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 

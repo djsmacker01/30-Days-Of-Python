@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 12 - Modules </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/nuruade/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/djsmacker01">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/djsmacker01?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a href="https://www.linkedin.com/in/nuruade/" target="_blank">djsmacker01 Yetayeh</a><br>
 <small> Second Edition: July, 2021</small>
 </sub>
 
@@ -65,7 +65,7 @@ To import the file we use the _import_ keyword and the name of the file only.
 ```py
 # main.py file
 import mymodule
-print(mymodule.generate_full_name('Asabeneh', 'Yetayeh')) # Asabeneh Yetayeh
+print(mymodule.generate_full_name('djsmacker01', 'Yetayeh')) # djsmacker01 Yetayeh
 ```
 
 ### Import Functions from a Module
@@ -135,13 +135,13 @@ print('Welcome {}. Enjoy  {} challenge!'.format(sys.argv[1], sys.argv[2]))
 Now to check how this script works I wrote in command line:
 
 ```sh
-python script.py Asabeneh 30DaysOfPython
+python script.py djsmacker01 30DaysOfPython
 ```
 
 The result:
 
 ```sh
-Welcome Asabeneh. Enjoy  30DayOfPython challenge! 
+Welcome djsmacker01. Enjoy  30DayOfPython challenge! 
 ```
 
 Some useful sys commands:

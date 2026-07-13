@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 8 - Dictionaries</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/nuruade/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/djsmacker01">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/djsmacker01?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a href="https://www.linkedin.com/in/nuruade/" target="_blank">djsmacker01 Yetayeh</a><br>
 <small> Second Edition: July, 2021</small>
 </sub>
 
@@ -56,7 +56,7 @@ dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 
 ```py
 person = {
-    'first_name':'Asabeneh',
+    'first_name':'djsmacker01',
     'last_name':'Yetayeh',
     'age':250,
     'country':'Finland',
@@ -85,7 +85,7 @@ print(len(dct)) # 4
 
 ```py
 person = {
-    'first_name':'Asabeneh',
+    'first_name':'djsmacker01',
     'last_name':'Yetayeh',
     'age':250,
     'country':'Finland',
@@ -115,7 +115,7 @@ print(dct['key4']) # value4
 
 ```py
 person = {
-    'first_name':'Asabeneh',
+    'first_name':'djsmacker01',
     'last_name':'Yetayeh',
     'age':250,
     'country':'Finland',
@@ -126,7 +126,7 @@ person = {
         'zipcode':'02210'
     }
     }
-print(person['first_name']) # Asabeneh
+print(person['first_name']) # djsmacker01
 print(person['country'])    # Finland
 print(person['skills'])     # ['JavaScript', 'React', 'Node', 'MongoDB', 'Python']
 print(person['skills'][0])  # JavaScript
@@ -137,7 +137,7 @@ print(person['city'])       # Error
 Accessing an item by key name raises an error if the key does not exist. To avoid this error first we have to check if a key exist or we can use the _get_ method. The get method returns None, which is a NoneType object data type, if the key does not exist.
 ```py
 person = {
-    'first_name':'Asabeneh',
+    'first_name':'djsmacker01',
     'last_name':'Yetayeh',
     'age':250,
     'country':'Finland',
@@ -148,7 +148,7 @@ person = {
         'zipcode':'02210'
     }
     }
-print(person.get('first_name')) # Asabeneh
+print(person.get('first_name')) # djsmacker01
 print(person.get('country'))    # Finland
 print(person.get('skills')) #['HTML','CSS','JavaScript', 'React', 'Node', 'MongoDB', 'Python']
 print(person.get('city'))   # None
@@ -168,7 +168,7 @@ dct['key5'] = 'value5'
 
 ```py
 person = {
-    'first_name':'Asabeneh',
+    'first_name':'djsmacker01',
     'last_name':'Yetayeh',
     'age':250,
     'country':'Finland',
@@ -198,7 +198,7 @@ dct['key1'] = 'value-one'
 
 ```py
 person = {
-    'first_name':'Asabeneh',
+    'first_name':'djsmacker01',
     'last_name':'Yetayeh',
     'age':250,
     'country':'Finland',
@@ -243,7 +243,7 @@ del dct['key2'] # removes key2 item
 
 ```py
 person = {
-    'first_name':'Asabeneh',
+    'first_name':'djsmacker01',
     'last_name':'Yetayeh',
     'age':250,
     'country':'Finland',

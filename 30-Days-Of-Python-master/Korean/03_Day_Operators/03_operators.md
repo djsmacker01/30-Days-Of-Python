@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 3 - Operators</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/nuruade/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/djsmacker01">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/djsmacker01?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a href="https://www.linkedin.com/in/nuruade/" target="_blank">djsmacker01 Yetayeh</a><br>
 <small> Second Edition: July, 2021</small>
 </sub>
 </div>
@@ -218,8 +218,8 @@ print('False == False:', False == False)
 ```py
 print('1 is 1', 1 is 1)                   # 참 - 데이터 값이 동일하기 때문에
 print('1 is not 2', 1 is not 2)           # 참 - 1과 2는 다르기 때문에
-print('A in Asabeneh', 'A' in 'Asabeneh') # 참 - 문자열에서 A를 찾을 수 있습니다
-print('B in Asabeneh', 'B' in 'Asabeneh') # 거짓 - 대문자 B가 없습니다
+print('A in djsmacker01', 'A' in 'djsmacker01') # 참 - 문자열에서 A를 찾을 수 있습니다
+print('B in djsmacker01', 'B' in 'djsmacker01') # 거짓 - 대문자 B가 없습니다
 print('coding' in 'coding for all') # 참 - coding이라는 단어를 coding for all이 가지고 있기 때문에
 print('a in an:', 'a' in 'an')      # 참
 print('4 is 2 ** 2:', 4 is 2 ** 2)   # 참

@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 10 - Loops</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/nuruade/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/djsmacker01">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/djsmacker01?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a href="https://www.linkedin.com/in/nuruade/" target="_blank">djsmacker01 Yetayeh</a><br>
 <small> Second Edition: July, 2021</small>
 </sub>
 </div>
@@ -204,7 +204,7 @@ for iterator in dct:
 
 ```py
 person = {
-    'first_name':'Asabeneh',
+    'first_name':'djsmacker01',
     'last_name':'Yetayeh',
     'age':250,
     'country':'Finland',
@@ -331,7 +331,7 @@ for x in y:
 
 ```py
 person = {
-    'first_name': 'Asabeneh',
+    'first_name': 'djsmacker01',
     'last_name': 'Yetayeh',
     'age': 250,
     'country': 'Finland',
@@ -449,9 +449,9 @@ for number in range(6):
 
 ### Exercises: Level 3
 
-1. Go to the data folder and use the [countries.py](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries.py) file. Loop through the countries and extract all the countries containing the word _land_.
+1. Go to the data folder and use the [countries.py](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/countries.py) file. Loop through the countries and extract all the countries containing the word _land_.
 1. This is a fruit list, ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop.
-2. Go to the data folder and use the [countries_data.py](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries-data.py) file. 
+2. Go to the data folder and use the [countries_data.py](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/countries-data.py) file. 
    1. What are the total number of languages in the data
    2. Find the ten most spoken languages from the data
    3. Find the 10 most populated countries in the world

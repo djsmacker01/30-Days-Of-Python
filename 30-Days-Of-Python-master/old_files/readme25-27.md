@@ -1,15 +1,15 @@
 ![30DaysOfPython](./images/30DaysOfPython_banner3@2x.png)
 
-🧳 [Part 1: Day 1 - 3](https://github.com/Asabeneh/30-Days-Of-Python)  
-🧳 [Part 2: Day 4 - 6](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme4-6.md)  
-🧳 [Part 3: Day 7 - 9](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme7-9.md)  
-🧳 [Part 4: Day 10 - 12](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme10-12.md)  
-🧳 [Part 5: Day 13 - 15](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme13-15.md)  
-🧳 [Part 6: Day 16 - 18](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme16-18.md)  
-🧳 [Part 7: Day 19 - 21](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme19-21.md)  
-🧳 [Part 8: Day 22 - 24](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme22-24.md)  
-🧳 [Part 9: Day 25 - 27](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme25-27.md)  
-🧳 [Part 10: Day 28 - 30](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme28-30.md)  
+🧳 [Part 1: Day 1 - 3](https://github.com/djsmacker01/30-Days-Of-Python)  
+🧳 [Part 2: Day 4 - 6](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme4-6.md)  
+🧳 [Part 3: Day 7 - 9](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme7-9.md)  
+🧳 [Part 4: Day 10 - 12](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme10-12.md)  
+🧳 [Part 5: Day 13 - 15](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme13-15.md)  
+🧳 [Part 6: Day 16 - 18](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme16-18.md)  
+🧳 [Part 7: Day 19 - 21](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme19-21.md)  
+🧳 [Part 8: Day 22 - 24](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme22-24.md)  
+🧳 [Part 9: Day 25 - 27](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme25-27.md)  
+🧳 [Part 10: Day 28 - 30](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme28-30.md)  
 
 - [📘 Day 25](#%f0%9f%93%98-day-25)
   - [Pandas](#pandas)
@@ -178,7 +178,7 @@ fruits
 
 
 ```python
-dct = {'name':'Asabeneh','country':'Finland','city':'Helsinki'}
+dct = {'name':'djsmacker01','country':'Finland','city':'Helsinki'}
 ```
 
 
@@ -190,7 +190,7 @@ s
 
 
 
-    name       Asabeneh
+    name       djsmacker01
     country     Finland
     city       Helsinki
     dtype: object
@@ -249,7 +249,7 @@ Pandas data frames can be created in different ways.
 
 ```python
 data = [
-    ['Asabeneh', 'Finland', 'Helsink'], 
+    ['djsmacker01', 'Finland', 'Helsink'], 
     ['David', 'UK', 'London'],
     ['John', 'Sweden', 'Stockholm']
 ]
@@ -287,7 +287,7 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>djsmacker01</td>
       <td>Finland</td>
       <td>Helsink</td>
     </tr>
@@ -313,7 +313,7 @@ df
 
 
 ```python
-data = {'Name': ['Asabeneh', 'David', 'John'], 'Country':[
+data = {'Name': ['djsmacker01', 'David', 'John'], 'Country':[
     'Finland', 'UK', 'Sweden'], 'City': ['Helsiki', 'London', 'Stockholm']}
 df = pd.DataFrame(data)
 df
@@ -348,7 +348,7 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>djsmacker01</td>
       <td>Finland</td>
       <td>Helsiki</td>
     </tr>
@@ -380,7 +380,7 @@ df
 
 ```python
 data = [
-    {'Name': 'Asabeneh', 'Country': 'Finland', 'City': 'Helsinki'},
+    {'Name': 'djsmacker01', 'Country': 'Finland', 'City': 'Helsinki'},
     {'Name': 'David', 'Country': 'UK', 'City': 'London'},
     {'Name': 'John', 'Country': 'Sweden', 'City': 'Stockholm'}]
 df = pd.DataFrame(data)
@@ -416,7 +416,7 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>djsmacker01</td>
       <td>Finland</td>
       <td>Helsinki</td>
     </tr>
@@ -824,7 +824,7 @@ All the time, first we import the necessary packages. Now, lets import pandas an
 import pandas as pd
 import numpy as np
 data = [
-    {"Name": "Asabeneh", "Country":"Finland","City":"Helsinki"},
+    {"Name": "djsmacker01", "Country":"Finland","City":"Helsinki"},
     {"Name": "David", "Country":"UK","City":"London"},
     {"Name": "John", "Country":"Sweden","City":"Stockholm"}]
 df = pd.DataFrame(data)
@@ -860,7 +860,7 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>djsmacker01</td>
       <td>Finland</td>
       <td>Helsinki</td>
     </tr>
@@ -926,7 +926,7 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>djsmacker01</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
@@ -991,7 +991,7 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>djsmacker01</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
@@ -1063,7 +1063,7 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>djsmacker01</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
@@ -1145,7 +1145,7 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>djsmacker01</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
@@ -1218,7 +1218,7 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>djsmacker01</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
@@ -1294,7 +1294,7 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>djsmacker01</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
@@ -1443,7 +1443,7 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>djsmacker01</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
@@ -1542,7 +1542,7 @@ df[df['Ages'] > 120]
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
+      <td>djsmacker01</td>
       <td>Finland</td>
       <td>Helsinki</td>
       <td>74</td>
@@ -1687,20 +1687,20 @@ pip install virtualenv
 Step 2:
 
 ```sh
-asabeneh@Asabeneh:~/Desktop$ mkdir python_for_web
-asabeneh@Asabeneh:~/Desktop$ cd python_for_web/
-asabeneh@Asabeneh:~/Desktop/python_for_web$ virtualenv env
-asabeneh@Asabeneh:~/Desktop/python_for_web$ source env/bin/activate
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ pip freeze
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ pip install Flask
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ pip freeze
+djsmacker01@djsmacker01:~/Desktop$ mkdir python_for_web
+djsmacker01@djsmacker01:~/Desktop$ cd python_for_web/
+djsmacker01@djsmacker01:~/Desktop/python_for_web$ virtualenv env
+djsmacker01@djsmacker01:~/Desktop/python_for_web$ source env/bin/activate
+(env) djsmacker01@djsmacker01:~/Desktop/python_for_web$ pip freeze
+(env) djsmacker01@djsmacker01:~/Desktop/python_for_web$ pip install Flask
+(env) djsmacker01@djsmacker01:~/Desktop/python_for_web$ pip freeze
 Click==7.0
 Flask==1.1.1
 itsdangerous==1.1.0
 Jinja2==2.10.3
 MarkupSafe==1.1.1
 Werkzeug==0.16.0
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$
+(env) djsmacker01@djsmacker01:~/Desktop/python_for_web$
 ```
 
 We created a project director named python*for_web. Inside the project we created a virtual environment \_env* which could be any name but I prefer to call it _env_. Then we activated the virtual environment. We used pip freeze to check the installed packages in the project directory. The result of pip freeze was empty because a package was not installed yet.
@@ -2099,19 +2099,19 @@ After installing heroku write the following command
 #### Login to Heroku
 
 ```sh
-asabeneh@Asabeneh:~$ heroku login
+djsmacker01@djsmacker01:~$ heroku login
 heroku: Press any key to open up the browser to login or q to exit:
 ```
 
 Let's see the result by clicking any key from the keyboard. When you press any key from you keyboard it will open the heroku login page and click the login page. Then you will local machine will be connected to the remote heroku server. If you are connected to remote server, you will see this.
 
 ```sh
-asabeneh@Asabeneh:~$ heroku login
+djsmacker01@djsmacker01:~$ heroku login
 heroku: Press any key to open up the browser to login or q to exit:
 Opening browser to https://cli-auth.heroku.com/auth/browser/be12987c-583a-4458-a2c2-ba2ce7f41610
 Logging in... done
-Logged in as asabeneh@gmail.com
-asabeneh@Asabeneh:~$
+Logged in as djsmacker01@gmail.com
+djsmacker01@djsmacker01:~$
 ```
 
 #### Create requirements and Procfile
@@ -2122,27 +2122,27 @@ Before we push our code to remote server, we need requirements
 - Procfile
 
 ```sh
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ pip freeze
+(env) djsmacker01@djsmacker01:~/Desktop/python_for_web$ pip freeze
 Click==7.0
 Flask==1.1.1
 itsdangerous==1.1.0
 Jinja2==2.10.3
 MarkupSafe==1.1.1
 Werkzeug==0.16.0
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ touch requirements.txt
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ pip freeze > requirements.txt
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ cat requirements.txt
+(env) djsmacker01@djsmacker01:~/Desktop/python_for_web$ touch requirements.txt
+(env) djsmacker01@djsmacker01:~/Desktop/python_for_web$ pip freeze > requirements.txt
+(env) djsmacker01@djsmacker01:~/Desktop/python_for_web$ cat requirements.txt
 Click==7.0
 Flask==1.1.1
 itsdangerous==1.1.0
 Jinja2==2.10.3
 MarkupSafe==1.1.1
 Werkzeug==0.16.0
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ touch Procfile
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ ls
+(env) djsmacker01@djsmacker01:~/Desktop/python_for_web$ touch Procfile
+(env) djsmacker01@djsmacker01:~/Desktop/python_for_web$ ls
 Procfile          env/              static/
 app.py            requirements.txt  templates/
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$
+(env) djsmacker01@djsmacker01:~/Desktop/python_for_web$
 ```
 
 The Procfile will have the command which run the application in the web server in our case on Heroku.
@@ -2223,7 +2223,7 @@ Select python 3.6 or above driver
 Copy the connection string only link and you get something like this
 
 ```sh
-mongodb+srv://asabeneh:<password>@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority
+mongodb+srv://djsmacker01:<password>@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority
 ```
 
 Don't worry about the url, it is a means to connect your application with mongoDB.
@@ -2231,7 +2231,7 @@ Let's replace the password placeholder with the passed you use to add a user.
 **Example:**
 
 ```sh
-mongodb+srv://asabeneh:123123123@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority
+mongodb+srv://djsmacker01:123123123@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority
 ```
 
 Now, I replaced everything and the password is 123123 and the name of the database is thirty_days_python. This is just an example, your password must a bit strong than this.
@@ -2250,7 +2250,7 @@ The "dnspython" module must be installed to use mongodb+srv:// URIs. The dnspyth
 # let's import the flask
 from flask import Flask, render_template
 import os # importing operating system module
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 print(client.list_database_names())
 
@@ -2283,12 +2283,12 @@ db = client['name_of_database']
 # let's import the flask
 from flask import Flask, render_template
 import os # importing operating system module
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 # Creating database
 db = client.thirty_days_of_python
 # Creating students collection and inserting a document
-db.students.insert_one({'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'age': 250})
+db.students.insert_one({'name': 'djsmacker01', 'country': 'Finland', 'city': 'Helsinki', 'age': 250})
 print(client.list_database_names())
 
 app = Flask(__name__)
@@ -2322,7 +2322,7 @@ We can use for loop to inset many documents at once.
 # let's import the flask
 from flask import Flask, render_template
 import os # importing operating system module
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 
 students = [
@@ -2353,7 +2353,7 @@ Let's use the _find_one()_ method to get documents in the database collection.
 # let's import the flask
 from flask import Flask, render_template
 import os # importing operating system module
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 student = db.students.find_one()
@@ -2370,7 +2370,7 @@ if __name__ == '__main__':
 ```
 
 ```sh
-{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'Asabeneh', 'country': 'Helsinki', 'city': 'Helsinki', 'age': 250}
+{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'djsmacker01', 'country': 'Helsinki', 'city': 'Helsinki', 'age': 250}
 ```
 
 The above query returns the first entry but we can target specific document using specific \_id. Let's do one example, let's use David's id to get David object.
@@ -2381,7 +2381,7 @@ The above query returns the first entry but we can target specific document usin
 from flask import Flask, render_template
 import os # importing operating system module
 from bson.objectid import ObjectId # id object
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 student = db.students.find_one({'_id':ObjectId('5df68a23f106fe2d315bbc8c')})
@@ -2408,7 +2408,7 @@ We have seen, how to use _find_one()_ using the above examples. Let's move one t
 from flask import Flask, render_template
 import os # importing operating system module
 
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 students = db.students.find()
@@ -2424,7 +2424,7 @@ if __name__ == '__main__':
 ```
 
 ```sh
-{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'Asabeneh', 'country': 'Helsinki', 'city': 'Helsinki', 'age': 250}
+{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'djsmacker01', 'country': 'Helsinki', 'city': 'Helsinki', 'age': 250}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8c'), 'name': 'David', 'country': 'UK', 'city': 'London', 'age': 34}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8d'), 'name': 'John', 'country': 'Sweden', 'city': 'Stockholm', 'age': 28}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8e'), 'name': 'Sami', 'country': 'Finland', 'city': 'Helsinki', 'age': 25}
@@ -2437,7 +2437,7 @@ We can specify which fields to return by passing second object in the _find({}, 
 from flask import Flask, render_template
 import os # importing operating system module
 
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 students = db.students.find({}, {"_id":0,  "name": 1, "country":1}) # 0 means not include and 1 means include
@@ -2453,7 +2453,7 @@ if __name__ == '__main__':
 ```
 
 ```sh
-{'name': 'Asabeneh', 'country': 'Finland'}
+{'name': 'djsmacker01', 'country': 'Finland'}
 {'name': 'David', 'country': 'UK'}
 {'name': 'John', 'country': 'Sweden'}
 {'name': 'Sami', 'country': 'Finland'}
@@ -2468,7 +2468,7 @@ In mongoDB find take a query object. We can pass a query object and we can filte
 from flask import Flask, render_template
 import os # importing operating system module
 
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 students = db.students.find(query)
@@ -2486,7 +2486,7 @@ if __name__ == '__main__':
 ```
 
 ```sh
-{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'age': 250}
+{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'djsmacker01', 'country': 'Finland', 'city': 'Helsinki', 'age': 250}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8e'), 'name': 'Sami', 'country': 'Finland', 'city': 'Helsinki', 'age': 25}
 ```
 
@@ -2497,7 +2497,7 @@ Query with modifiers
 from flask import Flask, render_template
 import os # importing operating system module
 
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 students = db.students.find(query)
@@ -2515,7 +2515,7 @@ if __name__ == '__main__':
 ```
 
 ```sh
-{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'age': 250}
+{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'djsmacker01', 'country': 'Finland', 'city': 'Helsinki', 'age': 250}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8e'), 'name': 'Sami', 'country': 'Finland', 'city': 'Helsinki', 'age': 25}
 ```
 
@@ -2526,7 +2526,7 @@ if __name__ == '__main__':
 from flask import Flask, render_template
 import os # importing operating system module
 
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 students = db.students.find(query)
@@ -2544,7 +2544,7 @@ if __name__ == '__main__':
 ```
 
 ```sh
-{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'age': 250}
+{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'djsmacker01', 'country': 'Finland', 'city': 'Helsinki', 'age': 250}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8e'), 'name': 'Sami', 'country': 'Finland', 'city': 'Helsinki', 'age': 25}
 ```
 
@@ -2555,7 +2555,7 @@ Query with modifiers
 from flask import Flask, render_template
 import os # importing operating system module
 
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 query = {"age":{"$gt":30}}
@@ -2573,7 +2573,7 @@ if __name__ == '__main__':
 ```
 
 ```sh
-{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'age': 250}
+{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'djsmacker01', 'country': 'Finland', 'city': 'Helsinki', 'age': 250}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8c'), 'name': 'David', 'country': 'UK', 'city': 'London', 'age': 34}
 ```
 
@@ -2582,7 +2582,7 @@ if __name__ == '__main__':
 from flask import Flask, render_template
 import os # importing operating system module
 
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 query = {"age":{"$gt":30}}
@@ -2602,7 +2602,7 @@ We can limit the number of documents we return using the *limit()* method.
 from flask import Flask, render_template
 import os # importing operating system module
 
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 db.students.find().limit(3)
@@ -2617,7 +2617,7 @@ By default, sort is in ascending order. We can change to descending by adding -1
 from flask import Flask, render_template
 import os # importing operating system module
 
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 students = db.students.find().sort('name')
@@ -2648,7 +2648,7 @@ if __name__ == '__main__':
 Ascending order
 
 ```sh
-{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'age': 250}
+{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'djsmacker01', 'country': 'Finland', 'city': 'Helsinki', 'age': 250}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8c'), 'name': 'David', 'country': 'UK', 'city': 'London', 'age': 34}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8d'), 'name': 'John', 'country': 'Sweden', 'city': 'Stockholm', 'age': 28}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8e'), 'name': 'Sami', 'country': 'Finland', 'city': 'Helsinki', 'age': 25}
@@ -2660,20 +2660,20 @@ Descending order
 {'_id': ObjectId('5df68a23f106fe2d315bbc8e'), 'name': 'Sami', 'country': 'Finland', 'city': 'Helsinki', 'age': 25}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8d'), 'name': 'John', 'country': 'Sweden', 'city': 'Stockholm', 'age': 28}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8c'), 'name': 'David', 'country': 'UK', 'city': 'London', 'age': 34}
-{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'age': 250}
+{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'djsmacker01', 'country': 'Finland', 'city': 'Helsinki', 'age': 250}
 ```
 
 ### Update with query
 
 We will use _update_one()_ method to update one item. It takes two object one is a qeury and the second is the new object.
-The first person, Asabeneh got a very implausible age. Let's update Asabeneh's age.
+The first person, djsmacker01 got a very implausible age. Let's update djsmacker01's age.
 
 ```py
 # let's import the flask
 from flask import Flask, render_template
 import os # importing operating system module
 
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 
@@ -2695,7 +2695,7 @@ if __name__ == '__main__':
 ```
 
 ```sh
-{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'age': 38}
+{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'djsmacker01', 'country': 'Finland', 'city': 'Helsinki', 'age': 38}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8c'), 'name': 'David', 'country': 'UK', 'city': 'London', 'age': 34}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8d'), 'name': 'John', 'country': 'Sweden', 'city': 'Stockholm', 'age': 28}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8e'), 'name': 'Sami', 'country': 'Finland', 'city': 'Helsinki', 'age': 25}
@@ -2713,7 +2713,7 @@ Let's remove one John from the collection.
 from flask import Flask, render_template
 import os # importing operating system module
 
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 
@@ -2736,7 +2736,7 @@ if __name__ == '__main__':
 ```
 
 ```sh
-{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'age': 38}
+{'_id': ObjectId('5df68a21f106fe2d315bbc8b'), 'name': 'djsmacker01', 'country': 'Finland', 'city': 'Helsinki', 'age': 38}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8c'), 'name': 'David', 'country': 'UK', 'city': 'London', 'age': 34}
 {'_id': ObjectId('5df68a23f106fe2d315bbc8e'), 'name': 'Sami', 'country': 'Finland', 'city': 'Helsinki', 'age': 25}
 ```
@@ -2754,7 +2754,7 @@ Using the _drop()_ method we can delete a collection from a database.
 from flask import Flask, render_template
 import os # importing operating system module
 
-MONGODB_URI = 'mongodb+srv://asabeneh:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://djsmacker01:your_password_goes_here@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 db.students.drop()
@@ -2765,7 +2765,7 @@ Now, we have deleted the students collection from the database.
 
 
 
-[<< Part 8 ](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme22-24.md) | [Part 10 >>](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme28-30.md)
+[<< Part 8 ](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme22-24.md) | [Part 10 >>](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme28-30.md)
 
 ---
 

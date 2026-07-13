@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 5 - Lists</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/nuruade/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/djsmacker01">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/djsmacker01?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a href="https://www.linkedin.com/in/nuruade/" target="_blank">djsmacker01 Yetayeh</a><br>
 <small> Second Edition: July - 2021</small>
 </sub>
 
@@ -123,7 +123,7 @@ Number of countries: 5
 - 리스트는 서로 다른 자료형의 아이템을 가질 수 있습니다.
 
 ```py
- lst = ['Asabeneh', 250, True, {'country':'Finland', 'city':'Helsinki'}] # 다른 자료형을 가진 리스트
+ lst = ['djsmacker01', 250, True, {'country':'Finland', 'city':'Helsinki'}] # 다른 자료형을 가진 리스트
 ```
 
 ### Accessing List Items Using Positive Indexing
@@ -579,7 +579,7 @@ ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 - 나이의 범위를 구합니다(최대값 빼기 최소값)
 -  (최소값 - 평균)과 (최대값 - 평균)의 값을 비교하고 _abs()_ 메서드를 사용합니다.
 
-1. [국가 목록](https://github.com/Asabeneh/30-Days-Of-Python/tree/master/data/countries.py) 에서 중간 국가를 찾습니다.
+1. [국가 목록](https://github.com/djsmacker01/30-Days-Of-Python/tree/master/data/countries.py) 에서 중간 국가를 찾습니다.
 1. 국가 리스트를 두개의 리스트로 나눕니다. 짝수라면 두개의 리스트의 크기가 갖게, 아니라면 앞의 리스트가 하나의 국가를 더 갖도록 합니다.
 1. ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. 앞의 세개 국가와 나머지를 scandic countries로 unpack합니다.
 

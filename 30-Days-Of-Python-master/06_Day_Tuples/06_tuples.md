@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 6 - Tuples</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/nuruade/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/djsmacker01">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/djsmacker01?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a href="https://www.linkedin.com/in/nuruade/" target="_blank">djsmacker01 Yetayeh</a><br>
 <small> Second Edition: July, 2021</small>
 </sub>
 
@@ -93,7 +93,7 @@ len(tpl)
   first_fruit = fruits[0]
   second_fruit = fruits[1]
   last_index =len(fruits) - 1
-  last_fruit = fruits[las_index]
+  last_fruit = fruits[las_index] 
   ```
 
 - Negative indexing
@@ -149,7 +149,7 @@ We can slice out a sub-tuple by specifying a range of indexes where to start and
   fruits = ('banana', 'orange', 'mango', 'lemon')
   all_fruits = fruits[-4:]    # all items
   orange_mango = fruits[-3:-1]  # doesn't include item at index 3
-  orange_to_the_rest = fruits[-3:]
+  orange_to_the_rest = fruits[-3:] #
   ```
 
 ### Changing Tuples to Lists

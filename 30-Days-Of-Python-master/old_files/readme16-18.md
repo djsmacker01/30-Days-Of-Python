@@ -1,15 +1,15 @@
 ![30DaysOfPython](./images/30DaysOfPython_banner3@2x.png)
 
-🧳 [Part 1: Day 1 - 3](https://github.com/Asabeneh/30-Days-Of-Python)  
-🧳 [Part 2: Day 4 - 6](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme4-6.md)  
-🧳 [Part 3: Day 7 - 9](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme7-9.md)  
-🧳 [Part 4: Day 10 - 12](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme10-12.md)  
-🧳 [Part 5: Day 13 - 15](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme13-15.md)  
-🧳 [Part 6: Day 16 - 18](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme16-18.md)  
-🧳 [Part 7: Day 19 - 21](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme19-21.md)  
-🧳 [Part 8: Day 22 - 24](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme22-24.md)  
-🧳 [Part 9: Day 25 - 27](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme25-27.md)  
-🧳 [Part 10: Day 28 - 30](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme28-30.md)  
+🧳 [Part 1: Day 1 - 3](https://github.com/djsmacker01/30-Days-Of-Python)  
+🧳 [Part 2: Day 4 - 6](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme4-6.md)  
+🧳 [Part 3: Day 7 - 9](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme7-9.md)  
+🧳 [Part 4: Day 10 - 12](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme10-12.md)  
+🧳 [Part 5: Day 13 - 15](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme13-15.md)  
+🧳 [Part 6: Day 16 - 18](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme16-18.md)  
+🧳 [Part 7: Day 19 - 21](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme19-21.md)  
+🧳 [Part 8: Day 22 - 24](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme22-24.md)  
+🧳 [Part 9: Day 25 - 27](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme25-27.md)  
+🧳 [Part 10: Day 28 - 30](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme28-30.md)  
 
 ---
 
@@ -294,7 +294,7 @@ except ZeroDivisionError:
 ```
 
 ```sh
-Enter your name:Asabeneh
+Enter your name:djsmacker01
 Year you born:1920
 Type error occur
 I alway run.
@@ -325,9 +325,9 @@ finally:
 ```
 
 ```sh
-Enter your name:Asabeneh
+Enter your name:djsmacker01
 Year you born:1920
-You are Asabeneh. And your age is 99.
+You are djsmacker01. And your age is 99.
 I usually run with the try block
 I alway run.
 ```
@@ -390,8 +390,8 @@ print(one, middle, last)      #  1 [2, 3, 4, 5, 6] 7
 ```py
 def unpacking_person_info(name, country, city, age):
     return f'{name} lives in {country}, {city}. He is {age} year old.'
-dct = {'name':'Asabeneh', 'country':'Finland', 'city':'Helsinki', 'age':250}
-print(unpacking_person_info(**dct)) # Asabeneh lives in Finland, Helsinki. He is 250 years old.
+dct = {'name':'djsmacker01', 'country':'Finland', 'city':'Helsinki', 'age':250}
+print(unpacking_person_info(**dct)) # djsmacker01 lives in Finland, Helsinki. He is 250 years old.
 ```
 
 ### Packing
@@ -421,16 +421,16 @@ def packing_person_info(**kwargs):
         print(f"{key} = {kwargs[key]}")
     return kwargs
 
-print(packing_person_info(name="Asabeneh",
+print(packing_person_info(name="djsmacker01",
       country="Finland", city="Helsinki", age=250))
 ```
 
 ```sh
-name = Asabeneh
+name = djsmacker01
 country = Finland
 city = Helsinki
 age = 250
-{'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'age': 250}
+{'name': 'djsmacker01', 'country': 'Finland', 'city': 'Helsinki', 'age': 250}
 ```
 
 ## Spreading in Python
@@ -817,7 +817,7 @@ distance = 12
     print(most_frequent_words(cleaned_text)) # [(3, 'I'), (2, 'teaching'), (2, 'teacher')]
     ```
    
-[<< Part 5 ](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme13-15.md) | [Part 7 >>](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme19-21.md)
+[<< Part 5 ](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme13-15.md) | [Part 7 >>](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme19-21.md)
 
 ---
 

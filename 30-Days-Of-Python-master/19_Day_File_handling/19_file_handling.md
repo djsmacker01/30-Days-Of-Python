@@ -1,13 +1,13 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 19 - File Handling </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/nuruade/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/djsmacker01">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/djsmacker01?style=social">
   </a>
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a href="https://www.linkedin.com/in/nuruade/" target="_blank">djsmacker01 Yetayeh</a><br>
 <small>Second Edition: July, 2021</small>
 </sub>
 </div>
@@ -218,17 +218,17 @@ _Example:_
 ```py
 # dictionary
 person_dct= {
-    "name":"Asabeneh",
+    "name":"djsmacker01",
     "country":"Finland",
     "city":"Helsinki",
     "skills":["JavaScrip", "React","Python"]
 }
 # JSON: A string form a dictionary
-person_json = "{'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'skills': ['JavaScrip', 'React', 'Python']}"
+person_json = "{'name': 'djsmacker01', 'country': 'Finland', 'city': 'Helsinki', 'skills': ['JavaScrip', 'React', 'Python']}"
 
 # we use three quotes and make it multiple line to make it more readable
 person_json = '''{
-    "name":"Asabeneh",
+    "name":"djsmacker01",
     "country":"Finland",
     "city":"Helsinki",
     "skills":["JavaScrip", "React","Python"]
@@ -243,7 +243,7 @@ To change a JSON to a dictionary, first we import the json module and then we us
 import json
 # JSON
 person_json = '''{
-    "name": "Asabeneh",
+    "name": "djsmacker01",
     "country": "Finland",
     "city": "Helsinki",
     "skills": ["JavaScrip", "React", "Python"]
@@ -258,8 +258,8 @@ print(person_dct['name'])
 ```sh
 # output
 <class 'dict'>
-{'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'skills': ['JavaScrip', 'React', 'Python']}
-Asabeneh
+{'name': 'djsmacker01', 'country': 'Finland', 'city': 'Helsinki', 'skills': ['JavaScrip', 'React', 'Python']}
+djsmacker01
 ```
 
 ### Changing Dictionary to JSON
@@ -270,7 +270,7 @@ To change a dictionary to a JSON we use _dumps_ method from the json module.
 import json
 # python dictionary
 person = {
-    "name": "Asabeneh",
+    "name": "djsmacker01",
     "country": "Finland",
     "city": "Helsinki",
     "skills": ["JavaScrip", "React", "Python"]
@@ -287,7 +287,7 @@ print(person_json)
 # JSON does not have type, it is a string type.
 <class 'str'>
 {
-    "name": "Asabeneh",
+    "name": "djsmacker01",
     "country": "Finland",
     "city": "Helsinki",
     "skills": [
@@ -306,7 +306,7 @@ We can also save our data as a json file. Let us save it as a json file using th
 import json
 # python dictionary
 person = {
-    "name": "Asabeneh",
+    "name": "djsmacker01",
     "country": "Finland",
     "city": "Helsinki",
     "skills": ["JavaScrip", "React", "Python"]
@@ -325,7 +325,7 @@ CSV stands for comma separated values. CSV is a simple file format used to store
 
 ```csv
 "name","country","city","skills"
-"Asabeneh","Finland","Helsinki","JavaScript"
+"djsmacker01","Finland","Helsinki","JavaScript"
 ```
 
 **Example:**
@@ -349,7 +349,7 @@ with open('./files/csv_example.csv') as f:
 ```sh
 # output:
 Column names are :name, country, city, skills
-        Asabeneh is a teacher. He lives in Finland, Helsinki.
+        djsmacker01 is a teacher. He lives in Finland, Helsinki.
 Number of lines:  2
 ```
 
@@ -372,7 +372,7 @@ XML is another structured data format which looks like HTML. In XML the tags are
 ```xml
 <?xml version="1.0"?>
 <person gender="female">
-  <name>Asabeneh</name>
+  <name>djsmacker01</name>
   <country>Finland</country>
   <city>Helsinki</city>
   <skills>
@@ -499,13 +499,13 @@ field: skills
 ```
 
 6. Use the function, find_most_frequent_words to find:
-   a) The ten most frequent words used in [Obama's speech](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/obama_speech.txt)
-   b) The ten most frequent words used in [Michelle's speech](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/michelle_obama_speech.txt)
-   c) The ten most frequent words used in [Trump's speech](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/donald_speech.txt)
-   d) The ten most frequent words used in [Melina's speech](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/melina_trump_speech.txt)
-7. Write a python application that checks similarity between two texts. It takes a file or a string as a parameter and it will evaluate the similarity of the two texts. For instance check the similarity between the transcripts of [Michelle's](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/michelle_obama_speech.txt) and [Melina's](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/melina_trump_speech.txt) speech. You may need a couple of functions, function to clean the text(clean_text), function to remove support words(remove_support_words) and finally to check the similarity(check_text_similarity). List of [stop words](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/stop_words.py) are in the data directory
+   a) The ten most frequent words used in [Obama's speech](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/obama_speech.txt)
+   b) The ten most frequent words used in [Michelle's speech](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/michelle_obama_speech.txt)
+   c) The ten most frequent words used in [Trump's speech](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/donald_speech.txt)
+   d) The ten most frequent words used in [Melina's speech](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/melina_trump_speech.txt)
+7. Write a python application that checks similarity between two texts. It takes a file or a string as a parameter and it will evaluate the similarity of the two texts. For instance check the similarity between the transcripts of [Michelle's](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/michelle_obama_speech.txt) and [Melina's](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/melina_trump_speech.txt) speech. You may need a couple of functions, function to clean the text(clean_text), function to remove support words(remove_support_words) and finally to check the similarity(check_text_similarity). List of [stop words](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/stop_words.py) are in the data directory
 8. Find the 10 most repeated words in the romeo_and_juliet.txt
-9. Read the [hacker news csv](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/hacker_news.csv) file and find out:
+9. Read the [hacker news csv](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/data/hacker_news.csv) file and find out:
    a) Count the number of lines containing python or Python
    b) Count the number lines containing JavaScript, javascript or Javascript
    c) Count the number lines containing Java and not JavaScript

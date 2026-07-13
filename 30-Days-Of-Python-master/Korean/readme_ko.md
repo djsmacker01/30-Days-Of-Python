@@ -37,20 +37,20 @@
 
 <div>
 <small>Support the <strong>author</strong> to create more educational materials</small> <br />  
-<a href = "https://www.paypal.me/asabeneh"><img src='../images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
+<a href = "https://www.paypal.me/djsmacker01"><img src='../images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
 </div>
 
 <div align="center">
   <h1> 30 Days Of Python: Day 1 - Introduction</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/nuruade/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/djsmacker01">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/djsmacker01?style=social">
   </a>
 
   <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+  <a href="https://www.linkedin.com/in/nuruade/" target="_blank">djsmacker01 Yetayeh</a><br>
   <small> Second Edition: July, 2021</small>
   </sub>
 </div>
@@ -293,7 +293,7 @@ Python에는 여러 유형의 데이터 유형이 있습니다. 가장 일반적
 **예시:**
 
 ```py
-'Asabeneh'
+'djsmacker01'
 'Finland'
 'Python'
 'I love teaching'
@@ -332,7 +332,7 @@ Python 사전 개체는 키 값 쌍 형식의 정렬되지 않은 데이터 모�
 
 ```py
 {
-'first_name':'Asabeneh',
+'first_name':'djsmacker01',
 'last_name':'Yetayeh',
 'country':'Finland', 
 'age':250, 
@@ -348,7 +348,7 @@ Python 사전 개체는 키 값 쌍 형식의 정렬되지 않은 데이터 모�
 **Example:**
 
 ```py
-('Asabeneh', 'Pawel', 'Brook', 'Abraham', 'Lidiya') # Names
+('djsmacker01', 'Pawel', 'Brook', 'Abraham', 'Lidiya') # Names
 ```
 
 ```py
@@ -399,9 +399,9 @@ print(3 // 2)            # Floor division operator(//)
 print(type(10))          # Int
 print(type(3.14))        # Float
 print(type(1 + 3j))      # Complex number
-print(type('Asabeneh'))  # String
+print(type('djsmacker01'))  # String
 print(type([1, 2, 3]))   # List
-print(type({'name':'Asabeneh'})) # Dictionary
+print(type({'name':'djsmacker01'})) # Dictionary
 print(type({9.8, 3.14, 2.7}))    # Set
 print(type((9.8, 3.14, 2.7)))    # Tuple
 ```
@@ -435,7 +435,7 @@ Python 파일을 실행하려면 아래 이미지를 확인하세요. Visual Stu
    - 9.8
    - 3.14
    - 4 - 4j
-   - ['Asabeneh', 'Python', 'Finland']
+   - ['djsmacker01', 'Python', 'Finland']
    - 이름
    - 가족 이름
    - 국가 이름

@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 2 - 변수, 내장 함수</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/nuruade/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/djsmacker01">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/djsmacker01?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a href="https://www.linkedin.com/in/nuruade/" target="_blank">djsmacker01 Yetayeh</a><br>
 <small> Second Edition: July, 2021</small>
 </sub>
 
@@ -100,7 +100,7 @@ _Example:_
 
 ```py
 # Variables in Python
-first_name = 'Asabeneh'
+first_name = 'djsmacker01'
 last_name = 'Yetayeh'
 country = 'Finland'
 city = 'Helsinki'
@@ -108,7 +108,7 @@ age = 250
 is_married = True
 skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
 person_info = {
-   'firstname':'Asabeneh',
+   'firstname':'djsmacker01',
    'lastname':'Yetayeh',
    'country':'Finland',
    'city':'Helsinki'
@@ -151,7 +151,7 @@ print('Person information: ', person_info)
 **Example:**
 
 ```py
-first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
+first_name, last_name, country, age, is_married = 'djsmacker01', 'Yetayeh', 'Helsink', 250, True
 
 print(first_name, last_name, country, age, is_married)
 print('First name:', first_name)
@@ -185,21 +185,21 @@ print(age)
 # 다양한 파이썬 자료형
 # 다양한 자료형의 변수들을 선언해 봅시다.
 
-first_name = 'Asabeneh'     # str
+first_name = 'djsmacker01'     # str
 last_name = 'Yetayeh'       # str
 country = 'Finland'         # str
 city= 'Helsinki'            # str
 age = 250                   # int, 제 실제 나이가 아닙니다, 걱정마세요
 
 # Printing out types
-print(type('Asabeneh'))     # str
+print(type('djsmacker01'))     # str
 print(type(first_name))     # str
 print(type(10))             # int
 print(type(3.14))           # float
 print(type(1 + 1j))         # complex
 print(type(True))           # bool
 print(type([1, 2, 3, 4]))     # list
-print(type({'name':'Asabeneh','age':250, 'is_married':250}))    # dict
+print(type({'name':'djsmacker01','age':250, 'is_married':250}))    # dict
 print(type((1,2)))                                              # tuple
 print(type(zip([1,2],[3,4])))                                   # set
 ```
@@ -232,8 +232,8 @@ print('num_int', int(num_str))      # 10
 print('num_float', float(num_str))  # 10.6
 
 # str to list
-first_name = 'Asabeneh'
-print(first_name)               # 'Asabeneh'
+first_name = 'djsmacker01'
+print(first_name)               # 'djsmacker01'
 first_name_to_list = list(first_name)
 print(first_name_to_list)            # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']
 ```

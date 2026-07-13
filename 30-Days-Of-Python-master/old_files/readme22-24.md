@@ -1,15 +1,15 @@
 ![30DaysOfPython](./images/30DaysOfPython_banner3@2x.png)
 
-🧳 [Part 1: Day 1 - 3](https://github.com/Asabeneh/30-Days-Of-Python)  
-🧳 [Part 2: Day 4 - 6](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme4-6.md)  
-🧳 [Part 3: Day 7 - 9](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme7-9.md)  
-🧳 [Part 4: Day 10 - 12](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme10-12.md)  
-🧳 [Part 5: Day 13 - 15](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme13-15.md)  
-🧳 [Part 6: Day 16 - 18](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme16-18.md)  
-🧳 [Part 7: Day 19 - 21](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme19-21.md)  
-🧳 [Part 8: Day 22 - 24](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme22-24.md)  
-🧳 [Part 9: Day 25 - 27](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme25-27.md)  
-🧳 [Part 10: Day 28 - 30](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme28-30.md) 
+🧳 [Part 1: Day 1 - 3](https://github.com/djsmacker01/30-Days-Of-Python)  
+🧳 [Part 2: Day 4 - 6](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme4-6.md)  
+🧳 [Part 3: Day 7 - 9](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme7-9.md)  
+🧳 [Part 4: Day 10 - 12](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme10-12.md)  
+🧳 [Part 5: Day 13 - 15](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme13-15.md)  
+🧳 [Part 6: Day 16 - 18](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme16-18.md)  
+🧳 [Part 7: Day 19 - 21](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme19-21.md)  
+🧳 [Part 8: Day 22 - 24](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme22-24.md)  
+🧳 [Part 9: Day 25 - 27](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme25-27.md)  
+🧳 [Part 10: Day 28 - 30](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme28-30.md) 
 
 ---
 - [📘 Day 22](#%f0%9f%93%98-day-22)
@@ -113,31 +113,31 @@ For reference check the beautiful [soup documentation](https://www.crummy.com/so
 To start with project, it would be better to have a virtual environment. Virtual environment can help us to create an isolated or separate environment. This will help us to avoid conflicts in dependencies across projects. If you write pip freeze on your terminal you will see all the installed packages on your computer. If we use virtualenv, we will access only packages which are specific for that project. Open your terminal and install virtualenv
 
 ```sh
-asabeneh@Asabeneh:~/Desktop/30DaysOfPython/flask_project$ pip install virtualenv
+djsmacker01@djsmacker01:~/Desktop/30DaysOfPython/flask_project$ pip install virtualenv
 ```
 
 After installing the virtualenv package go to your project folder and create a virtual env by writing:
 ``sh
-asabeneh@Asabeneh:~/Desktop/30DaysOfPython/flask_project\$ virtualenv venv
+djsmacker01@djsmacker01:~/Desktop/30DaysOfPython/flask_project\$ virtualenv venv
 
 ````
 The venv name could another name too but I prefer to call it venv. Let's check if the the venv is create by using ls command.
 ```sh
-asabeneh@Asabeneh:~/Desktop/30DaysOfPython/flask_project$ ls
+djsmacker01@djsmacker01:~/Desktop/30DaysOfPython/flask_project$ ls
 venv/
 ````
 
 Let's activate the virtual environment by writing the following command at our project folder.
 
 ```sh
-asabeneh@Asabeneh:~/Desktop/30DaysOfPython/flask_project$ source venv/bin/activate
+djsmacker01@djsmacker01:~/Desktop/30DaysOfPython/flask_project$ source venv/bin/activate
 
 ```
 
 After you write the activation command, your project directory will start with venv. See the example below.
 
 ```sh
-(venv) asabeneh@Asabeneh:~/Desktop/30DaysOfPython/flask_project$
+(venv) djsmacker01@djsmacker01:~/Desktop/30DaysOfPython/flask_project$
 ```
 
 Now, lets check the available package in this project by writing pip freeze. You will not see any package.
@@ -145,13 +145,13 @@ Now, lets check the available package in this project by writing pip freeze. You
 We are going to do a small flask project so let's install flask to this project.
 
 ```sh
-(venv) asabeneh@Asabeneh:~/Desktop/30DaysOfPython/flask_project$ pip install Flask
+(venv) djsmacker01@djsmacker01:~/Desktop/30DaysOfPython/flask_project$ pip install Flask
 ```
 
 Now, let's write pip freeze to see the install packages in the project
 
 ```sh
-(venv) asabeneh@Asabeneh:~/Desktop/30DaysOfPython/flask_project$ pip freeze
+(venv) djsmacker01@djsmacker01:~/Desktop/30DaysOfPython/flask_project$ pip freeze
 Click==7.0
 Flask==1.1.1
 itsdangerous==1.1.0
@@ -163,7 +163,7 @@ Werkzeug==0.16.0
 When you finish you should dactivate active project using _deactivate_.
 
 ```sh
-(venv) asabeneh@Asabeneh:~/Desktop/30DaysOfPython$ deactivate
+(venv) djsmacker01@djsmacker01:~/Desktop/30DaysOfPython$ deactivate
 ```
 
 The necessary modules to work on flask are installed. Now, you project directory is ready for flask project. You should include the venv to your .gitignore file not to push it to github.
@@ -199,9 +199,9 @@ Numpy is the core library for scientific computing in Python. It provides a high
 
 So far, we have been using vscode but from now on I would recommend using Jupyter Notebook. To access jupter notebook let's install [anaconda](https://www.anaconda.com/). If you are using anaconda most of the common packages are included and you don't have install packages if you installed anaconda.
 
-[continue](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/numpy.md)
+[continue](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/numpy.md)
 
 
-[<< Part 7 ](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme19-21.md) | [Part 9 >>](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme25-27.md)
+[<< Part 7 ](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme19-21.md) | [Part 9 >>](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme25-27.md)
 
 ---

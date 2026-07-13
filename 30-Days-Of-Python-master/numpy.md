@@ -77,12 +77,12 @@ Numpy is the core library for scientific computing in Python. It provides a high
 So far, we have been using vscode but from now on I would recommend using Jupyter Notebook. To access jupter notebook let's install [anaconda](https://www.anaconda.com/). If you are using anaconda most of the common packages are included and you don't have install packages if you installed anaconda.
 
 ```sh
-asabeneh@Asabeneh:~/Desktop/30DaysOfPython$ pip install numpy
+djsmacker01@djsmacker01:~/Desktop/30DaysOfPython$ pip install numpy
 ```
 
 ## Importing NumPy
 
-Jupyter notebook is available if your are in favor of [jupyter notebook](https://github.com/Asabeneh/data-science-for-everyone/blob/master/numpy/numpy.ipynb)
+Jupyter notebook is available if your are in favor of [jupyter notebook](https://github.com/djsmacker01/data-science-for-everyone/blob/master/numpy/numpy.ipynb)
 
 ```py
     # How to import numpy

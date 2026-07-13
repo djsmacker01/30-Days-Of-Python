@@ -1,15 +1,15 @@
 ![30DaysOfPython](./images/30DaysOfPython_banner3@2x.png)
 
-🧳 [Part 1: Day 1 - 3](https://github.com/Asabeneh/30-Days-Of-Python)  
-🧳 [Part 2: Day 4 - 6](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme4-6.md)  
-🧳 [Part 3: Day 7 - 9](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme7-9.md)  
-🧳 [Part 4: Day 10 - 12](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme10-12.md)  
-🧳 [Part 5: Day 13 - 15](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme13-15.md)  
-🧳 [Part 6: Day 16 - 18](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme16-18.md)  
-🧳 [Part 7: Day 19 - 21](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme19-21.md)  
-🧳 [Part 8: Day 22 - 24](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme22-24.md)  
-🧳 [Part 9: Day 25 - 27](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme25-27.md)  
-🧳 [Part 10: Day 28 - 30](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme28-30.md) 
+🧳 [Part 1: Day 1 - 3](https://github.com/djsmacker01/30-Days-Of-Python)  
+🧳 [Part 2: Day 4 - 6](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme4-6.md)  
+🧳 [Part 3: Day 7 - 9](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme7-9.md)  
+🧳 [Part 4: Day 10 - 12](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme10-12.md)  
+🧳 [Part 5: Day 13 - 15](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme13-15.md)  
+🧳 [Part 6: Day 16 - 18](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme16-18.md)  
+🧳 [Part 7: Day 19 - 21](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme19-21.md)  
+🧳 [Part 8: Day 22 - 24](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme22-24.md)  
+🧳 [Part 9: Day 25 - 27](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme25-27.md)  
+🧳 [Part 10: Day 28 - 30](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme28-30.md) 
 
 ---
 - [Day 4](#day-4)
@@ -101,11 +101,11 @@ print(multiline_string)
 We can connect to strings together. Merging or connecting to strings together is called concatenation.See the example below
 
   ```py
-  first_name = 'Asabeneh'
+  first_name = 'djsmacker01'
   last_name = 'Yetayeh'
   space = ' '
   full_name = first_name  +  space + last_name
-  print(full_name) # Asabeneh Yetayeh
+  print(full_name) # djsmacker01 Yetayeh
   # Checking length of a string using len() builtin function
   print(len(first_name))  # 8
   print(len(last_name))   # 7
@@ -159,7 +159,7 @@ The "%" operator is used to format a set of variables enclosed in a "tuple" (a f
 
 ```py
 # Strings only
-first_name = 'Asabeneh'
+first_name = 'djsmacker01'
 last_name = 'Yetayeh'
 language = 'Python'
 formatted_string = 'I am %s %s. I teach %s' %(first_name, last_name, language)
@@ -180,7 +180,7 @@ This is formating is introduced in python version 3.
 
 ```py
 
-first_name = 'Asabeneh'
+first_name = 'djsmacker01'
 last_name = 'Yetayeh'
 language = 'Python'
 formatted_string = 'I am {} {}. I teach {}'.format(first_name, last_name, language)
@@ -333,12 +333,12 @@ print(challenge.find('th')) # 0
 * format()	formats string into nicer output    
     More about string formating check this [link](https://www.programiz.com/python-programming/methods/string/format)
 ```py
-first_name = 'Asabeneh'
+first_name = 'djsmacker01'
 last_name = 'Yetayeh'
 job = 'teacher'
 country = 'Finland'
 sentence = 'I am {} {}. I am a {}. I live in {}.'.format(first_name, last_name, job, country)
-print(sentence) # I am Asabeneh Yetayeh. I am a teacher. I live in Finland.
+print(sentence) # I am djsmacker01 Yetayeh. I am a teacher. I live in Finland.
 
 radius = 10
 pi = 3.14
@@ -509,7 +509,7 @@ print(challenge.startswith('thirty')) # False
 34. Use a tab escape sequence to writ the following sentence.
     ```py
     Name      Age     Country
-    Asabeneh  250     Finland
+    djsmacker01  250     Finland
     ```
 35. Use string formatting method to display the following:
 ```sh
@@ -592,7 +592,7 @@ Number of countries: 5
 ```
 * List can have items of different data types
 ```py
- lst = ['Asabeneh', 250, True, {'country':'Finland', 'city':'Helsinki'}] # list containing different data types
+ lst = ['djsmacker01', 250, True, {'country':'Finland', 'city':'Helsinki'}] # list containing different data types
 ```
 ### Accessing list items using positive indexing
 We access each item in a list using their index. A list index start from 0. The picture below show clearly where the index starts
@@ -982,7 +982,7 @@ ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
   * Find the average age(all items divided by number of items)
   * Find the range of the ages(max minus min)
   * Compare the value of (min - average) and (max - average), use *abs()* method
-29. Find the middle country(ies) in the [countries list](https://github.com/Asabeneh/30-Days-Of-Python/tree/master/data/countries.py)
+29. Find the middle country(ies) in the [countries list](https://github.com/djsmacker01/30-Days-Of-Python/tree/master/data/countries.py)
 30. Divide the countries list into two equal lists if it is even if not one more country for the first half.
 31. ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
 
@@ -1158,4 +1158,4 @@ It is not possible to remove a single item in a tuple but it is possible to dele
   nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
   ```
 
-[<< Part 1](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme.md) | [Part 3>>](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/readme7-9.md)
+[<< Part 1](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme.md) | [Part 3>>](https://github.com/djsmacker01/30-Days-Of-Python/blob/master/readme7-9.md)
